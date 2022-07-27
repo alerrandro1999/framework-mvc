@@ -1,0 +1,15 @@
+{
+    "name": "alerr/mini-framework",
+    "autoload": {
+        "psr-4": {
+            "Alerr\\MiniFramework\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alerrandro borges",
+            "email": "alerrandrokaton@gmail.com"
+        }
+    ],
+    "require": {}
+}
