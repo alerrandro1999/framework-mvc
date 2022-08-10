@@ -1,10 +1,10 @@
 <?php
 
 $this->get('/', function(){
-    echo 'estou na home';
+    (new \Alerr\MiniFramework\controller\TesteController)->index();
 });
 
-$this->get('/home/', function(){
+$this->get('/home', function(){
     echo 'estou na home';
 });
 
